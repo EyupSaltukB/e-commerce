@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09324d, #02081d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #395daa, #232f3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    box-shadow: 2px 2px 20px #0d2d5c;
+}
+
+header input{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+header input:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+}
+
+header div{
+    display: flex;
+    gap: 10px;
+}
+
+header div button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+header div button:hover{
+    scale: 0.95;
+}
+
+header div button:nth-child(1){
+    background-color: red;
+}
+
+header div button:nth-child(2){
+    background-color: green;
+}
+
+header div button:nth-child(3){
+    background-color: blue;
+}
+
+header div button:nth-child(4){
+    background-color: rgb(215, 95, 221);
+}
+
+
+ 
+main{} 
+
+
+section{
+    padding: 50px;
+}
+
+.search{
+    background-color: rgba(234, 240, 245, 0.747);
+}
+/* KATEGORİLER*/
+
+#category-sec{
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.category{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.category img{
+    width: 100%;
+    border-radius: 10px;
+}
+.category span{
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.category span:hover{
+    transform: scale(1.075);
+    transition: all 0.7s;
+}
+
+/* Ürünler */
+.products{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 19px;
+}
+
+.product:hover{
+    transform: scale(1.05);
+    transition: all 0.71s;
+}
+
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info{
+    background: rgb(23, 50, 110);
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.product-info p {
+    color: greenyellow;
+}
+
+.product-info button{
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer ;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #2e41b3 0%, #7a8fec 100%);
+    color: white;
+}
+
+.product-info button:hover{
+    scale: 0.96;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.384);
+}
+
+/* MODAL */
+
+.modal-wrapper{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.441);
+    top: 0;
+    left: 0;
+    display: none;
+    place-items: center;
+    z-index: 1000;
+}
+
+.active{
+    display: grid;
+}
+
+.modal-inner{
+    background: white;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modal-inner .icon{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.modal-inner img{
+    width: 40px;
+}
+
+.modal-inner img:hover{
+    scale: 0.92;
+}
+
+/* modal listesi */
+.list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 12px;
+    border: 12px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.884) 0px 50px 100px -20px, rgba(0, 0, 0, 0.596) 0px 30px 60px -30px;
+}
+
+.list-item img{
+    border-radius:50%;
+}
+
+.list-item button{
+    border: 1px solid red;
+    padding: 3px 15px;
+    color: red;
+    background: none;
+    border-radius: 3px ;
+    cursor: pointer;
+}
+
+.list-item button:hover{
+    background: red;
+    font-weight: bold;
+    color: white;
+    transition: all 0.6s;
+    transform: scale(0.95);
+}
+
