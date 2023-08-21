@@ -32,11 +32,11 @@ bu işlemi yaprken elemanın miktarını unutma
 
 # Kaynaklar
 
-API : https://fakeapi.platzi.com/
-Gölgelendirme : https://getcssscan.com/
-İkonlar : https://fontawesome.com/ ve https://icons8.com/
-Renk Geçişleri : https://www.grabient.com/
-Yazı Stili : https://fonts.google.com/
+- API : https://fakeapi.platzi.com/
+- Gölgelendirme : https://getcssscan.com/
+- İkonlar : https://fontawesome.com/ ve https://icons8.com/
+- Renk Geçişleri : https://www.grabient.com/
+- Yazı Stili : https://fonts.google.com/
 
 
 <h3> Ekran Görüntüleri <h3>
