@@ -2,9 +2,9 @@
 
 # Yol Haritası
 
-- Statik bir header oluşturma.
+- Statik bir header oluştur.
 
-- API'dan kategori bilgisini alıp ve ekrana yansıtma.
+- API'dan kategori bilgisini al ve ekrana yansıt.
 - https://api.escuelajs.co/api/v1/categories
 
 sayfa yüklendiği anda
@@ -21,11 +21,11 @@ bir pencere aç
 içerisindeki X butonuna tıklanınca kapat
 Sepete ekle butonuna tıklanıldığında:
 
-sepete eklemek istediğin elemenı console yaz
+sepete eklemek istediğin elemanı console yaz
 sepete eklenen ürünü bir diziye aktar
 sepet açıldığı anda dizideki ürünleri ekrana yansıt
 sepet kapandığı anda modal'ın html'ini temizle
-sepetteki ürünleri ekrana baserken fiyat değerleini topla ve bir değişkene aktar
+sepetteki ürünleri ekrana basarken fiyat değerleini topla ve bir değişkene aktar
 
 bu işlemi yaprken elemanın miktarını unutma
 ürün sepetten kladılırınca toplam fiyattan eksilt
