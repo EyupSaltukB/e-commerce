@@ -1,10 +1,10 @@
-# E-Ticaret
+# E-Ticaret Sitesi ( E- Commerce Site )
 
-# Yapılacaklar
+# Yol Haritası
 
-- Statik bir header oluştur
+- Statik bir header oluşturma.
 
-- API'dan kategori bilgisini al ve ekrana yansıt
+- API'dan kategori bilgisini alıp ve ekrana yansıtma.
 - https://api.escuelajs.co/api/v1/categories
 
 sayfa yüklendiği anda
@@ -33,6 +33,10 @@ bu işlemi yaprken elemanın miktarını unutma
 # Kaynaklar
 
 API : https://fakeapi.platzi.com/
+
+
+
+
 
 <h2> Ekran Görüntüleri <h2>
 ![](images/screen1.png)
