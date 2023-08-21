@@ -39,12 +39,12 @@ Renk Geçişleri : https://www.grabient.com/
 Yazı Stili : https://fonts.google.com/
 
 
-<h2> Ekran Görüntüleri <h2>
+<h3> Ekran Görüntüleri <h3>
   
 ![](images/screen1.png)
 ![](images/screen2.png)
 ![](images/screen3.png)
 
-<h3> GIF <h3>
+<h4> GIF <h4>
 
 ![](images/comgif.gif)
