@@ -30,7 +30,7 @@ sepetteki ürünleri ekrana basarken fiyat değerleini topla ve bir değişkene 
 bu işlemi yaprken elemanın miktarını unutma
 ürün sepetten kladılırınca toplam fiyattan eksilt
 
-# Kaynaklar
+# Kullanılan Kaynaklar
 
 - API : https://fakeapi.platzi.com/
 - Gölgelendirme : https://getcssscan.com/
